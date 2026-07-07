@@ -14,7 +14,6 @@
 
 nums=[2,4,5,4,3]
 val=2
-
 nums2=[x for x in nums if x!=val]
 print(nums2)
 k=len(nums2)
