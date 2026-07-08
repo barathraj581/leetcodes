@@ -1,0 +1,10 @@
+#output in non-decreasing order
+a=[1,2,2,3,3,4,5]
+s=list(set(a))
+print(s)
+
+
+#actual value as output
+a=[1,1,2,2,6,3,2,9]
+s=list(dict.fromkeys(a))
+print(s)
