@@ -6,5 +6,5 @@ def prime_no(a):
         else:
             print("prime")
             break
-num=int(input("enter the number:"))
-prime_no(num)
+num1=int(input("enter the number:"))
+prime_no(num1)
