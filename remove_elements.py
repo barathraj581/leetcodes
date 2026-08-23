@@ -14,10 +14,17 @@
 # Note that the five elements can be returned in any order.
 # It does not matter what you leave beyond the returned k (hence they are underscores).
 
-nums=[2,4,5,4,3]
-val=2
+# nums=[2,4,5,4,3]
+# val=2
+# nums=[x for x in nums if x!=val]
+# print(nums)
+# k=len(nums)
+# print(k)
+
+
+nums = [3,2,2,3]
+val = 3
 nums=[x for x in nums if x!=val]
 print(nums)
 k=len(nums)
 print(k)
-
